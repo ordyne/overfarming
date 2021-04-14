@@ -4,7 +4,6 @@ body {
     height: 98vh;
 }
 
-
 ul,
 li {
     list-style: none;
@@ -33,14 +32,11 @@ li {
     justify-content: space-evenly
 }
 
-/* #wrap_opacity.on {
-    background-color:transparent;
-} */
 
 #grid1 {
     width: 48%;
     height: 72%;
-    /* background-color: var(--main-bg-color); */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +45,7 @@ li {
 #grid2 {
     width: 48%;
     height: 72%;
-    /* background-color: var(--main-bg-color); */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +54,6 @@ li {
 #grid3 {
     width: 33%;
     height: 84%;
-    /* background-color: var(--main-bg-color); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -81,8 +76,7 @@ li {
 .owl-next {
     position: absolute;
     top: 0;
-    /* height: 100%; */
-}
+    }
 
 .owl-prev {
     left: 7px;
@@ -428,7 +422,6 @@ text.highcharts-credits {
 
 #box3 #box3_mobile_tableWrap {
     margin: 0 auto;
-    /* padding: 0 2vw; */
     text-align: center;
     width: 100%;
     height: 120px;
@@ -453,7 +446,7 @@ text.highcharts-credits {
 #box1 {
     width: 100%;
     height: 30vh;
-    /* background: var(--main-bg-color); */
+   
     box-sizing: border-box;
 }
 
@@ -511,7 +504,6 @@ text.highcharts-credits {
 #box2 {
     width: 100%;
     height: 27vh;
-    /* background: var(--main-bg-color); */
     box-sizing: border-box;
     margin-top: 1.5%;
 }
@@ -525,7 +517,6 @@ text.highcharts-credits {
     font-size: 22px;
     font-weight: bold;
     color: var(--title-color);
-    ;
 }
 
 #box2 #box2_2 {
@@ -722,7 +713,6 @@ text.highcharts-credits {
 #box3 {
     width: 100%;
     height: 100%;
-    /* background: var(--main-bg-color); */
     display: flex;
     justify-content: space-around;
 }
@@ -870,7 +860,6 @@ text.highcharts-credits {
 #box4 {
     width: 100%;
     height: 60vh;
-    /* background: var(--main-bg-color); */
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -923,7 +912,6 @@ text.highcharts-credits {
     padding: 0 10%;
     margin: 0 auto;
     text-align: center;
-    /* margin-top: 20px; */
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -958,7 +946,6 @@ text.highcharts-credits {
 #box5 {
     width: 32%;
     height: 19vh;
-    /* background: var(--main-bg-color); */
     box-sizing: border-box;
 }
 
@@ -1032,7 +1019,6 @@ text.highcharts-credits {
 #box6 {
     width: 100%;
     height: 83vh;
-    /* background: var(--main-bg-color); */
     box-sizing: border-box;
     position: relative;
 }
@@ -1075,12 +1061,10 @@ text.highcharts-credits {
 }
 
 #box6 #box6_2 #box6_2_1 p:nth-child(1) {
-    /* padding: 54px 40px 0 40px; */
     color: var(--main-color);
     font-size: 60px;
     font-weight: 400;
     text-align: center;
-    /* margin-top: 26px; */
 }
 
 #box6 #box6_2 #box6_2_1 p:nth-child(2) {
@@ -1124,7 +1108,6 @@ text.highcharts-credits {
 }
 
 #box6 #box6_5 table {
-    /* width: 80%; */
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -1348,7 +1331,6 @@ text.highcharts-credits {
     height: 80px;
 }
 
-/* #top_area table td{padding:0; margin:0;} */
 #top_area p {
     font-size: 22px;
     padding: 10px 20px 0 20px;
@@ -1601,9 +1583,6 @@ h4 {
         height: 83vh;
     }
 
-    /* #box6 #box6_1 p:nth-child(2) {
-        padding: 54px 40px 0 40px;
-    } */
 }
 
 @media screen and (max-width:1366px) {
@@ -1632,9 +1611,6 @@ h4 {
         height: auto;
     }
 
-    #box3_1 #box3_1_2 {
-        /* height: auto; */
-    }
 
     #box3_1 #box3_1_2 #box3_table {
         margin-top: 0;
@@ -1650,7 +1626,6 @@ h4 {
     }
 
     #box3_2 #box3_2_2 {
-        /* height: auto; */
         margin: 0;
     }
 
@@ -1664,7 +1639,6 @@ h4 {
     }
 
     #box5_2 {
-        /* height: auto; */
         margin: 0;
     }
 
@@ -1681,9 +1655,6 @@ h4 {
         height: 100%;
     }
 
-    /* #box6 #box6_1 #box6_1_1 p:nth-child(1) {
-        padding: 4% 8% 0 8%;
-    } */
 
     body {
         background-color: var(--main-bg-color);
@@ -1697,8 +1668,6 @@ h4 {
         height: 94vh;
     }
 
-    /*89vh->*/
-    /* #grid3 .highcharts-root{height:85%;} */
     #box6 #box6_2 {
         height: 18%;
     }
@@ -1762,7 +1731,6 @@ h4 {
 
     nav a,
     nav label {
-        /* width: 226px; */
         width:100%;
         text-align: center;
         margin-left: 6px;
@@ -1858,7 +1826,6 @@ h4 {
 
     main {
         width: 100%;
-        /* height: auto; */
         height: 132vh;
         position: relative;
     }
@@ -1896,7 +1863,6 @@ h4 {
 
 
     #grid1 {
-        /* width: 49%; */
         width: 45%;
         position: absolute;
         left: 3%;
@@ -1906,7 +1872,6 @@ h4 {
     }
 
     #grid2 {
-        /* width: 49%; */
         height: 57vh;
         position: absolute;
         left: 3%;
@@ -1976,16 +1941,6 @@ h4 {
         bottom: 110px;
     }
 
-    /* canvas#canvas {
-        width: 92%;
-        height: 85%;
-        margin-top: 3%;
-    }
-
-    canvas#canvas2 {
-        top: 20px;
-        width: 56%;
-    } */
 
     #grid_left {
         width: 90%;
@@ -2007,9 +1962,7 @@ h4 {
         margin-top: 15px;
         margin-bottom: 15px;
         height: 105px;
-        /* padding-top: 9px; */
         padding-top: 0px;
-        /*26px->*/
     }
 
     #box3_1 #box3_1_2 table {
@@ -2021,7 +1974,6 @@ h4 {
     }
 
     #chart_1 {
-        /* height: 87.5%; */
         height: 86%;
     }
 
@@ -2029,12 +1981,6 @@ h4 {
         height: 63%;
         margin-top: 20px;
     }
-
-    /* 
-    #box6 #box6_1 p:nth-child(2) {
-        
-        padding: 40px 50px 0 40px;
-    } */
 
     #wrap #top_area #top_btn #btn_aws img {
         width: 7vw;
@@ -2067,7 +2013,6 @@ h4 {
     }
 
     #box1 #box1_2 table {
-        /* padding: 20px 8px 0 30px; */
         padding: 45px 20px 0 30px;
     }
 
@@ -2092,7 +2037,6 @@ h4 {
 
     #box3_1 #box3_1_2 {
         height: 76%;
-        /*66%->*/
     }
 
     #box3_2 {
@@ -2155,8 +2099,6 @@ h4 {
 
     #box3_2 #box3_2_2 table {
         padding: 0;
-        /* padding-top: 14px; */
-        /* padding-top: 25px; */
     }
 
     #box4_3 table tr:nth-child(2n-1) td {
@@ -2207,9 +2149,6 @@ h4 {
         height: 20vh;
     }
 
-    /* #box1 #box1_2 {
-        height: auto;
-    } */
 
     #box2 {
         height: 22vh;
@@ -2224,7 +2163,6 @@ h4 {
         position: relative;
         right: 49.5vw;
         bottom: 26vh;
-        /*23vh->*/
     }
 
     #box3_2 {
@@ -2250,7 +2188,6 @@ h4 {
     #box5 {
         position: relative;
         bottom: 11vh;
-        /*14vh->*/
     }
 
     #target {
@@ -2261,9 +2198,6 @@ h4 {
         height: 18%;
     }
 
-    /* #box6 #box6_1 p:nth-child(2) {
-        padding: 28px 50px 0 40px;
-    } */
 
     #chart_2 {
         height: 68%;
@@ -2350,7 +2284,6 @@ h4 {
         right:4%; /*20210329*/
     }
 
-    /*56vw*/
     #box3 .owl-stage {
         width: 444vw !important;
     }
@@ -2364,7 +2297,6 @@ h4 {
         margin-left: 6vw !important;
     }
 
-    /* 45,25*/
     #box3 #box3_mobile_table {
         width: 80%;
         margin: 0 auto;
@@ -2442,7 +2374,6 @@ h4 {
     }
 
     #box2_mobile .owl-item {
-        /* margin-right:21px !important; */
         margin-right: 1.75vw !important;
         margin-left: 18px;
     }
@@ -2500,9 +2431,6 @@ h4 {
         display: block;
     }
 
-    /* #grid_wrap {
-        flex-direction: column;
-    } */
 
     #box2 {
         height: 46%;
@@ -2534,11 +2462,6 @@ h4 {
         width: 88%;
     }
 
-    /* #box6 #box6_1 p:nth-child(2) {
-        padding: 20px 40px 0 40px;
-        margin: 0;
-        margin-top: 36px;
-    } */
 
     #box1 #box1_2 table td {
         width: 10vh;
@@ -2559,7 +2482,6 @@ h4 {
     }
 
     #grid1 {
-        /* height: 56vh; */
         height: 460px;
         /* 수정 예정 */
         width: 94%;
@@ -2617,14 +2539,6 @@ h4 {
         font-size: 34px;
     }
 
-    #box1 #box1_2 table td:nth-child(3) {
-        /* width: 25%; */
-    }
-
-    /*20%->25%*/
-    #box1 #box1_2 table td:nth-child(4) {
-        /* width: 20%; */
-    }
 
     #box1 #box1_2 table td:nth-child(1) {
         font-size: 18px;
@@ -2644,7 +2558,6 @@ h4 {
 
     nav a,
     nav label {
-        /* width: 82%; */
         width:100%;
         margin-left: 6px;
     }
@@ -2742,14 +2655,10 @@ h4 {
         font-weight: bold;
     }
 
-    /* #loadbalancer table {
-        padding: 0;
-    } */
 
 
 
 
-    /*S10+*/
 
     #wrap #top_area #top_title {
         height: 49px;
@@ -2790,7 +2699,6 @@ h4 {
     }
 
     #box6 #box6_2 #box6_2_1 p:nth-child(1) {
-        /* padding: 26px 40px 0 40px; */
         font-size: 40px;
     }
 
@@ -2815,7 +2723,6 @@ h4 {
     }
 
     #box6 #box6_2 #box6_2_1 p:nth-child(1) {
-        /* padding: 36px 40px 0 40px; */
         font-size: 60px;
     }
 
@@ -2858,9 +2765,6 @@ h4 {
         top: 104vh;
     }
 
-    /* #box6 #box6_1 p:nth-child(2) {
-        padding: 6px 40px 0 40px;
-    } */
 
     canvas#bar-chart {
         top: 14%;
@@ -2876,7 +2780,6 @@ h4 {
     }
 
     #box6 #box6_2 #box6_2_1 p:nth-child(1) {
-        /* padding: 1% 10% 0 10%; */
         font-size: 40px;
     }
 
@@ -2927,9 +2830,6 @@ h4 {
         height: auto;
     }
 
-    #box6 #box6_1 {
-        /* height: 10%; */
-    }
 
     #box6 #box6_3 {
         height: 14%;
@@ -3014,7 +2914,6 @@ h4 {
     #grid4 #box3 #box3_mobile #top_account>p {
         font-size: 18px;
         padding: 8px 12px 6px 14px;
-        /* width: 120px; */
         width:140px;
     }
 
@@ -3047,7 +2946,6 @@ h4 {
 
 
     #box6 #box6_2 #box6_2_1 p:nth-child(1) {
-        /* padding: 10px 40px 0 40px; */
         font-size: 5vh;
     }
 
@@ -3173,10 +3071,7 @@ h4 {
         top: 46vh;
     }
 
-    #box6 #box6_2 {
-        /* margin-top: 8vh; */
-    }
-
+ 
     #chart_2 {
         margin-top: 6vh;
     }
